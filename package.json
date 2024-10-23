@@ -1,0 +1,21 @@
+{
+  "name": "idea-network-api",
+  "version": "1.0.0",
+  "description": "A social network API for sharing and discussing ideas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node utils/seed.js"
+  },
+  "keywords": ["ideas", "social network", "API"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
